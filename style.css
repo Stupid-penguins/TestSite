@@ -19,6 +19,7 @@ body {
     margin: -12.5px;
     height: 125px;
     width: 125px;
+    background-color: #E31C79;
 }
 
 .circle {
@@ -31,8 +32,9 @@ body {
 }
 .circle:hover {
     margin: -120px 105px;
-        height: 125px;
-        width: 125px;
+    height: 125px;
+    width: 125px;
+    background-color: #ffdee9;
 }
 
 .triangle {
@@ -47,6 +49,7 @@ body {
 
 .triangle:hover {
     transform: rotate(3.142rad);
+    border-bottom: 100px solid pink;
 }
 
 .container {
