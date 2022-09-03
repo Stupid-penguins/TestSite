@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container2 {
+    position: absolute;
+    top: 5000px;
+    height: 100%;
+    width: 100%;
+}
+
+.square {
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    transition: 0.3s;
+    background-color: black;
+}
+.square:hover {
+    margin: -12.5px;
+    height: 125px;
+    width: 125px;
+}
+
+.circle {
+    margin: -100px 115px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: 0.3s;
+    background-color: black;
+}
+.circle:hover {
+    margin: -120px 105px;
+        height: 125px;
+        width: 125px;
+}
+
+.triangle {
+    margin: 0px 0px;
+    width: 0;
+    height: 0;
+    transition: 0.3s;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid black;
+}
+
+.triangle:hover {
+    transform: rotate(3.142rad);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
